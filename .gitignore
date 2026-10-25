@@ -1,0 +1,12 @@
+# Local document-rendering previews
+qa/
+sample_images.png
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Training outputs if generated later
+runs/
+*.pt
+*.onnx

@@ -1,0 +1,77 @@
+{
+  "dataset_root": "dataset/",
+  "classes": {
+    "0": "helmet",
+    "1": "no_helmet"
+  },
+  "method": "Structural audit of YOLO label rows, image readability, paired files, image dimensions and exact SHA-256 duplicates. No model training or accuracy evaluation.",
+  "splits": {
+    "train": {
+      "images": 636,
+      "label_files": 636,
+      "bounding_box_rows": 1240,
+      "polygon_rows": 1,
+      "annotation_rows": 1241,
+      "class_annotations": {
+        "1": 516,
+        "0": 725
+      },
+      "empty_label_files": 0,
+      "missing_label_files": 0,
+      "extra_label_files": 0,
+      "malformed_rows": 0,
+      "unreadable_images": 0,
+      "image_sizes": {
+        "640x640": 636
+      }
+    },
+    "valid": {
+      "images": 179,
+      "label_files": 179,
+      "bounding_box_rows": 298,
+      "polygon_rows": 0,
+      "annotation_rows": 298,
+      "class_annotations": {
+        "1": 112,
+        "0": 186
+      },
+      "empty_label_files": 0,
+      "missing_label_files": 0,
+      "extra_label_files": 0,
+      "malformed_rows": 0,
+      "unreadable_images": 0,
+      "image_sizes": {
+        "640x640": 179
+      }
+    },
+    "test": {
+      "images": 88,
+      "label_files": 88,
+      "bounding_box_rows": 163,
+      "polygon_rows": 0,
+      "annotation_rows": 163,
+      "class_annotations": {
+        "1": 58,
+        "0": 105
+      },
+      "empty_label_files": 0,
+      "missing_label_files": 0,
+      "extra_label_files": 0,
+      "malformed_rows": 0,
+      "unreadable_images": 0,
+      "image_sizes": {
+        "640x640": 88
+      }
+    }
+  },
+  "exact_duplicate_images": [],
+  "warnings": [],
+  "total_images": 903,
+  "total_box_rows": 1701,
+  "total_polygon_rows": 1,
+  "total_annotation_rows": 1702,
+  "total_class_annotations": {
+    "0": 1016,
+    "1": 686
+  }
+}
